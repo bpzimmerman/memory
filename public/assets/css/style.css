@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
+html{
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-image: url("../pictures/yellow-back.jpg");
+  /* background-image: url("../pictures/lblue011.jpg"); */
+  background-color: rgb(245, 227, 39);
+  background-size: 10%;
+  height: 100%;
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: block;
+}

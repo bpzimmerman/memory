@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Albert Einstein",
+    "image": "/assets/pictures/albert-einstein.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Amelia Earhart",
+    "image": "/assets/pictures/amelia-earhart.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Franklin D Roosevelt",
+    "image": "/assets/pictures/franklin-d-roosevelt.jpg"
+  },
+  {
+    "id": 4,
+    "name": "George Washington Carver",
+    "image": "/assets/pictures/george-washington-carver.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Harriet Tubman",
+    "image": "/assets/pictures/harriet-tubman.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Jim Thorpe",
+    "image": "/assets/pictures/jim-thorpe.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Martin Luther King",
+    "image": "/assets/pictures/martin-luther-king.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Neil Armstrong",
+    "image": "/assets/pictures/neil-armstrong.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Sally Ride",
+    "image": "/assets/pictures/sally-ride.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Shirley Jackson",
+    "image": "/assets/pictures/shirley-jackson.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Thomas Edison",
+    "image": "/assets/pictures/thomas-edison.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Winston Churchill",
+    "image": "/assets/pictures/winston-churchill.jpg"
+  }
+]
