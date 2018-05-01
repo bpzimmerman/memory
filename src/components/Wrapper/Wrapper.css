@@ -1,8 +1,4 @@
 .wrapper {
-  padding-top: 60px;
-  background-color: #ECEFF1;
-  background-image: url(./img/brain-background.jpg);
-  background-size: 25%;
   height: 100%;
   display: flex;
   flex-flow: row wrap;
@@ -11,12 +7,4 @@
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
-}
-
-@media screen and (max-width: 390px) {
-
-  .wrapper {
-    padding-top: 112px;
-  }
-
 }

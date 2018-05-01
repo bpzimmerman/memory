@@ -1,9 +1,9 @@
 import React from "react";
 import PictureCard from "./components/PictureCard";
 import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
 import pictures from "./pictures.json";
-import "./App.css";
 
 let clickedArray = [];
 
@@ -48,6 +48,7 @@ class App extends React.Component {
           result={this.state.result}
           highScore={this.state.highScore}
         />
+        <Header />
         <Wrapper>
           {this.state.pictures.map(item => (
           <PictureCard
