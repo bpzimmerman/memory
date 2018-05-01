@@ -57,9 +57,17 @@
     padding: 0;
   }
 
+  .headline p{
+    display: block;
+  }
+
   .page-nav{
     font-size: 12px;
     float: none;
+  }
+
+  .page-nav p{
+    display: inline-flex;
   }
 
   .headline h1{

@@ -41,24 +41,26 @@ class App extends React.Component {
   };
 
   render() {
-    return [
-      <Navbar 
-        score={this.state.score}
-        result={this.state.result}
-        highScore={this.state.highScore}
-      />,
-      <Wrapper>
-        {this.state.pictures.map(item => (
-        <PictureCard
-          id={item.id}
-          key={item.id}
-          name={item.name}
-          image={item.image}
-          clicked={this.clickedPicture}
+    return (
+      <div>
+        <Navbar 
+          score={this.state.score}
+          result={this.state.result}
+          highScore={this.state.highScore}
         />
-        ))}
-      </Wrapper>
-    ];
+        <Wrapper>
+          {this.state.pictures.map(item => (
+          <PictureCard
+            id={item.id}
+            key={item.id}
+            name={item.name}
+            image={item.image}
+            clicked={this.clickedPicture}
+          />
+          ))}
+        </Wrapper>
+      </div>
+    );
   };
 
 }

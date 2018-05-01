@@ -16,15 +16,8 @@
   max-width: 100%;
 }
 
-.card > .remove {
-  color: #ff1744;
-  font-size: 48px;
-  position: absolute;
-  top: -20px;
-  right: 5px;
-  cursor: pointer;
-}
-
-.card > .remove:hover {
-  color: #d50000;
+.card > .img-container:hover{
+  transform: scale(1.05);
+  box-shadow: 0 14px 28px #999, 0 10px 10px #999;
+  transition: 0.1s;
 }
