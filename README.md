@@ -12,7 +12,7 @@ This application uses React to build a simple application where the user clicks 
 
    * GitHub repository: [Memory Game GitHub Repository](https://github.com/bpzimmerman/memory)
 
-![Memory Game Screenshot](readme_media/memory.PNG)
+![Memory Game Screenshot](readme-media/memory.PNG)
 
 2. Simply click a picture to start the game.
 
