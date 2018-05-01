@@ -1,9 +1,11 @@
 .card {
-  background: #fff;
+  /* background: #fff; */
+  background: #888888;
   margin: 1rem;
   position: relative;
   max-width: 18%;
-  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  /* box-shadow: 0 3px 6px #999, 0 3px 6px #999; */
+  box-shadow: 3px 3px 12px #888888, 3px 3px 12px #888888;
   text-align: left;
 }
 
@@ -17,7 +19,9 @@
 }
 
 .card > .img-container:hover{
+  background: #888888;
   transform: scale(1.05);
-  box-shadow: 0 14px 28px #999, 0 10px 10px #999;
+  box-shadow: 6px 6px 24px #888888, 6px 6px 24px #888888;
+  /* box-shadow: 0 14px 28px #999, 0 10px 10px #999; */
   transition: 0.1s;
 }

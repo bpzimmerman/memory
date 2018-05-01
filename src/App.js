@@ -27,10 +27,17 @@ class App extends React.Component {
     if (clickedArray.indexOf(id) === -1){
       clickedArray.push(id);
       this.setState({pictures: this.shuffle(this.state.pictures)});
-      this.setState({result: "Correct!"});
+      // this.setState({result: "Correct!"});
       this.setState({score: this.state.score + 1}, () => {
         if (this.state.highScore < this.state.score){
           this.setState({highScore: this.state.score});
+        };
+        if (this.state.score === 12){
+          this.setState({result: "You Won!"});
+          this.setState({score: 0});
+          clickedArray = [];
+        } else {
+          this.setState({result: "Correct!"});
         };
       });
     } else {
